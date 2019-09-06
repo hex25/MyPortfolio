@@ -1,0 +1,129 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    background-color: black;
+
+}
+
+/* Navbar */
+
+#menu-open {
+    display: none;
+    background-color: rgb(198, 226, 252);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center; 
+    height: 100px;
+}
+#menu-items {
+    font-size: 2em;
+    padding: 30px;
+}
+#menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0px 20px;
+}
+#menu-items a:hover {
+    text-decoration: underline;
+}
+
+/* Page1 */
+
+#page1 {
+    background-image: url('./back1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+    width: 100vw;
+}
+#intro {
+    position: relative;
+    top: 30vh;
+    line-height: 6em;
+    background-color: rgba(0,0,0, 0.7);
+    padding: 30px;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 0 100px 0 100px;
+
+}
+#intro h1 {
+    font-size: 5em;
+    position: relative;
+    right: 210px;
+}
+
+#intro h2 {
+    font-size: 4em;
+}
+
+#intro h3 {
+    font-size: 3.2em;
+    position: relative;
+    left: 151px;
+}
+#intro span {
+    color: rgb(28, 241, 241);
+}
+#arrow-up img, #arrow-down img {
+    width: 80px;
+    filter: invert(100%);
+    opacity: 0.5;
+}
+#arrow-up {
+    position: relative;
+    top: 40px;
+}
+#arrow-down {
+    position: relative;
+    top: 55vh;
+    
+}
+
+/* Page2 */
+
+#page2 {
+    min-height: 100vh;
+    color: white;
+}
+#page2 h1, #page3 h1 {
+    font-size: 2em;
+    padding-top: 60px;
+}
+.portfolio-item img {
+    width: 600px;
+}
+.portfolio-item {
+    margin: 50px auto;
+    width: 600px;
+}
+
+/* Page 3 */
+
+#page3 {
+    background-image: url('./back3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+    width: 100vw;
+}
+#page3 h1 {
+    padding-top: 80px;
+}
+
+footer {
+    color: white;
+    font-size: 1.2em;
+padding-top: 20px;
+}

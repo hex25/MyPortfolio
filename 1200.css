@@ -1,0 +1,49 @@
+/* Navbar */
+
+#menu-open {
+    height: 70px;
+    font-size: 0.5em;
+}
+
+#menu-items a {
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+/* Page1 */
+
+#intro {
+    top: 20vh;
+    line-height: 3.5em;
+    width: 40vw;
+}
+#intro h1 {
+    font-size: 3em;
+    position: relative;
+    right: 138px;
+}
+#intro h2 {
+    font-size: 2.5em;
+}
+#intro h3 {
+    font-size: 1.6em;
+    position: relative;
+    left: 107px;
+}
+#arrow-up img, #arrow-down img {
+    width: 30px;
+}
+#arrow-down {
+    top: 50vh;
+    
+}
+/* Page2 */
+
+#page2 h1, #page3 h1 {
+    font-size: 1.5em;
+}
+
+/* Page2 */
+
+
+
